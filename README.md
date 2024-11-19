@@ -40,7 +40,7 @@ El análisis de un sistema existente es fundamental en el proceso de desarrollo 
 
 1. Clona este repositorio:
    ```bash
-   git clone https://github.com/tu-repositorio/proyecto-base-sena.git
+   git clone https://github.com/orgingeniera/inventario.git
 Configura tu entorno PHP Desktop asegurándote de que las extensiones necesarias (como mbstring) estén habilitadas.
 
 Estudia la estructura del proyecto, especialmente los archivos principales como fpdf.php, generar.php y las bases de datos.
