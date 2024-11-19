@@ -1,6 +1,6 @@
 # Proyecto Base para Aprendices SENA
 
-Este repositorio contiene un proyecto base diseñado específicamente para los aprendices en el mundo de la programacipon de computaodoras. El objetivo de este proyecto es que los aprendices puedan estudiar, comprender y analizar el sistema existente, y a partir de ello, añadir nuevas funcionalidades. Esto les permitirá aplicar los conocimientos adquiridos en programación, análisis de sistemas y desarrollo de software.
+Este repositorio contiene un proyecto base diseñado específicamente para los aprendices en el mundo de la programación de computadoras. El objetivo de este proyecto es que los aprendices puedan estudiar, comprender y analizar el sistema existente, y a partir de ello, añadir nuevas funcionalidades. Esto les permitirá aplicar los conocimientos adquiridos en programación, análisis de sistemas y desarrollo de software.
 
 ## Objetivo del Proyecto
 
