@@ -29,7 +29,22 @@ include_once "includes/header.php";
         </div>
     </div>
 
-    <div class="col-lg-3 col-md-6 col-sm-6">
+    <div class="col-lg-2 col-md-6 col-sm-6">
+        <div class="card card-stats">
+            <div class="card-header card-header-info card-header-icon">
+                <div class="card-icon">
+                    <i class="fas fa-solid fa-truck fa-2x"></i>
+                </div>
+                <a href="proveedores.php" class="card-category text-info font-weight-bold">
+                    Proveedores
+                </a>
+                <h3 class="card-title"><?php echo $total['proveedores']; ?></h3>
+            </div>
+            <div class="card-footer bg-info text-white">
+            </div>
+        </div>
+    </div>
+    <div class="col-lg-2 col-md-6 col-sm-6">
         <div class="card card-stats">
             <div class="card-header card-header-success card-header-icon">
                 <div class="card-icon">
@@ -40,11 +55,11 @@ include_once "includes/header.php";
                 </a>
                 <h3 class="card-title"><?php echo $total['clientes']; ?></h3>
             </div>
-            <div class="card-footer bg-secondary text-white">
+            <div class="card-footer bg-success text-white">
             </div>
         </div>
     </div>
-    <div class="col-lg-3 col-md-6 col-sm-6">
+    <div class="col-lg-2 col-md-6 col-sm-6">
         <div class="card card-stats">
             <div class="card-header card-header-danger card-header-icon">
                 <div class="card-icon">
@@ -55,22 +70,22 @@ include_once "includes/header.php";
                 </a>
                 <h3 class="card-title"><?php echo $total['productos']; ?></h3>
             </div>
-            <div class="card-footer bg-primary">
+            <div class="card-footer bg-danger text-white">
             </div>
         </div>
     </div>
     <div class="col-lg-3 col-md-6 col-sm-6">
         <div class="card card-stats">
-            <div class="card-header card-header-info card-header-icon">
+            <div class="card-header card-header-light    card-header-icon">
                 <div class="card-icon">
                     <i class="fas fa-cash-register fa-2x"></i>
                 </div>
-                <a href="ventas.php" class="card-category text-info font-weight-bold">
+                <a href="ventas.php" class="card-category text-dark font-weight-bold">
                     Ventas
                 </a>
                 <h3 class="card-title"><?php echo $total['ventas']; ?></h3>
             </div>
-            <div class="card-footer bg-danger text-white">
+            <div class="card-footer bg-dark ">
             </div>
         </div>
     </div>

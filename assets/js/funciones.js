@@ -510,6 +510,32 @@ function editarUsuario(id) {
     });
 }
 
+function editarProveedor(id) {
+    const action = "editarProveedor";
+    $.ajax({
+        url: 'ajax.php',
+        type: 'GET',
+        async: true,
+        data: {
+            editarProveedor: action,
+            id: id
+        },
+        success: function (response) {
+            const datos = JSON.parse(response);
+            $('#nombre').val(datos.nombre);
+            $('#telefono').val(datos.telefono);
+            $('#apellido').val(datos.apellido);
+            $('#direccion').val(datos.direccion);
+            $('#descripcion').val(datos.descripcion);
+            $('#id').val(datos.idproveedor);
+            $('#btnAccion').val('Modificar');
+        },
+        error: function (error) {
+            console.log(error);
+        }
+    });
+}
+
 function editarProducto(id) {
     const action = "editarProducto";
     $.ajax({
