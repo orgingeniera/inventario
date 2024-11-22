@@ -52,6 +52,12 @@ if (empty($_SESSION['active'])) {
                         </a>
                     </li>
                     <li class="nav-item">
+                        <a class="nav-link d-flex" href="proveedores.php">
+                            <i class=" fas fa-solid fa-truck mr-2 fa-2x"></i>
+                            <p> Proveedores</p>
+                        </a>
+                    </li>
+                    <li class="nav-item">
                         <a class="nav-link d-flex" href="ventas.php">
                             <i class="fas fa-cash-register mr-2 fa-2x"></i>
                             <p> Nueva Venta</p>
