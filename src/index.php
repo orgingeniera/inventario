@@ -6,6 +6,8 @@ $clientes = mysqli_query($conexion, "SELECT * FROM cliente");
 $total['clientes'] = mysqli_num_rows($clientes);
 $productos = mysqli_query($conexion, "SELECT * FROM producto");
 $total['productos'] = mysqli_num_rows($productos);
+$proveedores = mysqli_query($conexion, "SELECT * FROM proveedores");
+$total['proveedores'] = mysqli_num_rows($proveedores);
 $ventas = mysqli_query($conexion, "SELECT * FROM ventas WHERE fecha > CURDATE()");
 $total['ventas'] = mysqli_num_rows($ventas);
 session_start();
